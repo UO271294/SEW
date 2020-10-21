@@ -1,0 +1,14 @@
+.multimedia {
+    position: relative;
+    left: 200px;
+}
+
+.footing {
+    position: fixed;
+    top: 90%;
+}
+
+.browser {
+    position:static;
+    float:right;
+}

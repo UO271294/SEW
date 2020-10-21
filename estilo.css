@@ -1,0 +1,45 @@
+title {
+
+}
+body {
+    font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    Background-color: #f6f6f6;
+}
+h1 {
+    background-color:#FF5733;
+    color: #fff;
+    text-transform:uppercase;
+    padding: 100px 25px;
+    text-align:center;
+}
+h2 {
+    background-color: #FF5733;
+    color: #fff; 
+    text-transform:uppercase;
+    padding: 100px 25px;
+    text-align: center;
+}
+h3 {
+    background-color: #FF5733;
+    color: #fff;
+    text-transform:uppercase;
+    padding: 100px 25px;
+    text-align: center;
+}
+ul {
+    list-style-type:circle;
+}
+table, th, td {
+    border: 1px solid black;
+}
+footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:red;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang=es>
+
+
+<head>
+<meta charset="utf-8"/>
+<title>
+MULTIMEDIA
+</title>
+</head>
+<body>
+<a href="default.asp">
+<img src="header.jpg" alt="Portada" style="width:42px;height:42px;">
+</a>
+
+
+<a href="https://www.vix.com/es/btg/cine/57317/11-curiosidades-de-gremlins-que-debes-saber-si-has-escuchado-del-posible-remake" target="_blank">¡Descubre sobre los Gremlins con estos interesantes datos!</a>
+
+<a href="mailto:uo271294@uniovi.es">¡Envíanos tu opinión sobre la página!</a>
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="hacerGrande()">Grande</button>
+  <button onclick="hacerPequeño()">Pequeño</button>
+  <button onclick="hacerNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="400">
+    <source src="trailer.mp4" type="video/mp4">
+    <source src="trailer.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var miVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function hacerGrande() { 
+    myVideo.width = 600; 
+} 
+
+function hacerPequeño() { 
+    myVideo.width = 300; 
+} 
+
+function hacerNormal() { 
+    myVideo.width = 400; 
+} 
+</script> 
+
+<audio controls>
+  <source src="gremlinsoundeffect.ogg" type="audio/ogg">
+  <source src="gremlinsoundeffect.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body> 
